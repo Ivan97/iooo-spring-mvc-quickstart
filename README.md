@@ -24,6 +24,12 @@ version      1.0-SNAPSHOT
 repository   https://oss.sonatype.org/content/repositories/snapshots
 ```
 
+generate之后清理IDE相关
+```
+mvn idea:clean
+mvn eclipse:clean``
+```
+
 archetype-metadata.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,7 +52,6 @@ archetype-metadata.xml
     <fileSet filtered="true" encoding="UTF-8">
       <directory>src/main/webapp</directory>
       <includes>
-        <include>**/*.jsp</include>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
@@ -56,19 +61,12 @@ archetype-metadata.xml
         <include>LICENSE</include>
         <include>.editorconfig</include>
         <include>README.md</include>
-        <include>iooo-spring-mvc-quickstart.iml</include>
         <include>.gitignore</include>
       </includes>
     </fileSet>
   </fileSets>
 </archetype-descriptor>
 
-```
-
-generate之后清理IDE相关
-```
-mvn idea:clean
-mvn eclipse:clean``
 ```
 
 删除logs文件夹
