@@ -226,4 +226,4 @@ fabric.properties
 
 target
 *.log
-log/
+logs/

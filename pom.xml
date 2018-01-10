@@ -168,6 +168,9 @@
                                         <include>**/*.xml</include>
                                         <include>**/*.yml</include>
                                     </includes>
+                                    <excludes>
+                                        <exclude>.idea</exclude>
+                                    </excludes>
                                 </resource>
                                 <resource>
                                     <directory>src/main/resources/</directory>
