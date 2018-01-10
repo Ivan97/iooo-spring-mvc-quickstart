@@ -65,5 +65,10 @@ archetype-metadata.xml
 
 ```
 
-删除IDE相关的文件/文件夹
+generate之后清理IDE相关
+```
+mvn idea:clean
+mvn eclipse:clean``
+```
+
 删除logs文件夹
