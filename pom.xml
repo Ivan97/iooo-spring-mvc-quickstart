@@ -130,11 +130,6 @@
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-server</artifactId>
-            <version>9.4.8.v20171121</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -192,31 +187,12 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty-maven-plugin.version}</version>
                 <configuration>
-                    <!--<contextXml>${project.basedir}/src/main/resources/jetty/jetty-context.xml</contextXml>-->
                     <jettyXml>${project.basedir}/src/main/resources/jetty/jetty-context.xml</jettyXml>
                     <scanIntervalSeconds>0</scanIntervalSeconds>
                     <webAppConfig>
                         <contextPath>/iooo</contextPath>
                     </webAppConfig>
-                    <systemProperties>
-                        <systemProperty>
-                            <name>logback.configurationFile</name>
-                            <value>${project.basedir}/src/main/resources/logback.xml</value>
-                        </systemProperty>
-                    </systemProperties>
                 </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>ch.qos.logback</groupId>
-                        <artifactId>logback-classic</artifactId>
-                        <version>1.2.3</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-api</artifactId>
-                        <version>1.7.25</version>
-                    </dependency>
-                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
