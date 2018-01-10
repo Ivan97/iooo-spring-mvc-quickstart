@@ -20,7 +20,7 @@ To use:
 ```
 groupId      tech.iooo.maven.archetypes
 artifactId   iooo-spring-mvc-quickstart
-version      1.0-SNAPSHOT
+version      0.0.1.RELEASE
 repository   https://oss.sonatype.org/content/repositories/snapshots
 ```
 
