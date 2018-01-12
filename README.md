@@ -1,6 +1,6 @@
 # iooo-spring-mvc-quickstart
 
-[![](https://jitpack.io/v/Ivan97/tech-iooo-repo.svg)](https://jitpack.io/#Ivan97/tech-iooo-repo)
+[![](https://jitpack.io/v/Ivan97/iooo-spring-mvc-quickstart.svg)](https://jitpack.io/#Ivan97/iooo-spring-mvc-quickstart)
 
 - Distribution:
 
