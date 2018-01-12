@@ -1,5 +1,7 @@
 # iooo-spring-mvc-quickstart
 
+[![](https://jitpack.io/v/Ivan97/tech-iooo-repo.svg)](https://jitpack.io/#Ivan97/tech-iooo-repo)
+
 - Distribution:
 
 ```
