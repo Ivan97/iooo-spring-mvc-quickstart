@@ -1,6 +1,6 @@
 # iooo-spring-mvc-quickstart
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype/badge.svg)[![](https://jitpack.io/v/Ivan97/iooo-spring-mvc-quickstart.svg)](https://jitpack.io/#Ivan97/iooo-spring-mvc-quickstart)
+[Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype/badge.svg?stype=plastic) [![](https://jitpack.io/v/Ivan97/iooo-spring-mvc-quickstart.svg)](https://jitpack.io/#Ivan97/iooo-spring-mvc-quickstart)
 
 - Distribution:
 
