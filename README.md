@@ -1,36 +1,30 @@
 # iooo-spring-mvc-quickstart
 
-Distribution:
+- Distribution:
 
 ```
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+<parent>
+    <groupId>tech.iooo.coco</groupId>
+    <artifactId>iooo-distribution-config</artifactId>
+    <version>0.1.1.RELEASE</version>
+</parent>
 ```
 
-To use:
+- To use:
 
 ```
 groupId      tech.iooo.maven.archetypes
 artifactId   iooo-spring-mvc-quickstart
 version      0.0.1.RELEASE
-repository   https://oss.sonatype.org/content/repositories/snapshots
 ```
 
-generate之后清理IDE相关
+- generate之后清理IDE相关
 ```
 mvn idea:clean
-mvn eclipse:clean``
+mvn eclipse:clean
 ```
 
-archetype-metadata.xml
+- archetype-metadata.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="iooo-spring-mvc-quickstart"
@@ -69,4 +63,4 @@ archetype-metadata.xml
 
 ```
 
-删除logs文件夹
+- 删除logs文件夹
