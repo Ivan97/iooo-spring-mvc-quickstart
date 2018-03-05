@@ -16,7 +16,7 @@
 
 ```
 groupId      tech.iooo.maven.archetypes
-artifactId   iooo-spring-mvc-quickstart
+artifactId   iooo-spring-mvc-quickstart-archetype
 version      0.0.1.RELEASE
 ```
 
