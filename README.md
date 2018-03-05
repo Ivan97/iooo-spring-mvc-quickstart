@@ -8,7 +8,7 @@
 <parent>
     <groupId>tech.iooo.coco</groupId>
     <artifactId>iooo-distribution-config</artifactId>
-    <version>0.1.1.RELEASE</version>
+    <version>0.1.2.RELEASE</version>
 </parent>
 ```
 
