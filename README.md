@@ -1,6 +1,6 @@
 # iooo-spring-mvc-quickstart
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype) [![](https://jitpack.io/v/Ivan97/iooo-spring-mvc-quickstart.svg)](https://jitpack.io/#Ivan97/iooo-spring-mvc-quickstart)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.iooo.maven.archetypes/iooo-spring-mvc-quickstart-archetype) 
 
 - Distribution:
 
@@ -17,7 +17,7 @@
 ```
 groupId      tech.iooo.maven.archetypes
 artifactId   iooo-spring-mvc-quickstart-archetype
-version      0.0.1.RELEASE
+version      ${project.version}
 ```
 
 - generate之后清理IDE相关
